@@ -9,7 +9,7 @@ type ContentElementProps = {
 const ContentElement: React.FC<ContentElementProps> = ({ data, onClick }) => {
   return (
     <div
-      className="bg-cornflowerblue cursor-pointer rounded-lg text-sm p-2 mb-1 transition-opacity duration-300 hover:opacity-80"
+      className="bg-cornflowerblue cursor-pointer rounded-lg text-sm p-2 mb-1 w-max "
       onClick={onClick}
     >
       <p className="text-xs m-0 font-bold">

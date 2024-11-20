@@ -34,7 +34,7 @@ const Calendar: React.FC = () => {
   const daysArray = Array.from({ length: daysInMonth }, (_, i) => i + 1);
 
   return (
-    <div className="flex flex-col items-center w-full max-w-4xl font-sans">
+    <div className="flex flex-col items-center w-full max-w-6xl font-sans">
       <div className="text-xl font-semibold mb-4">
         Calendar - {currentMonth + 1}/{currentYear}
       </div>

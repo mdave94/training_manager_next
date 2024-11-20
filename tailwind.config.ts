@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
+        "cornflower-blue": "#6495ed",
         foreground: "var(--foreground)",
       },
     },

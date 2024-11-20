@@ -32,10 +32,10 @@ const ContentList: React.FC<ContentListProps> = ({ tasks }) => {
   };
 
   return (
-    <div className="list-none m-0 p-0">
+    <div className="list-none m-0 p-0 w-full">
       {randomTexts.map((item, index) => (
         <ul key={index}>
-          <li>
+          <li className="bg-cornflower-blue rounded-lg transition-opacity duration-300 hover:opacity-80">
             <ContentElement data={item} onClick={() => handleClick(item)} />
           </li>
         </ul>
