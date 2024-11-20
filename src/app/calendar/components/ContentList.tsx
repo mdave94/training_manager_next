@@ -35,8 +35,11 @@ const ContentList: React.FC<ContentListProps> = ({ tasks }) => {
     <div className="list-none m-0 p-0 w-full">
       {randomTexts.map((item, index) => (
         <ul key={index}>
-          <li className="bg-cornflower-blue rounded-lg transition-opacity duration-300 hover:opacity-80">
-            <ContentElement data={item} onClick={() => handleClick(item)} />
+          <li
+            onClick={() => handleClick(item)}
+            className="bg-cornflower-blue rounded-lg cursor-pointer transition-opacity duration-300 hover:opacity-80"
+          >
+            <ContentElement data={item} />
           </li>
         </ul>
       ))}
