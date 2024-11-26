@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { TrainingSession } from "@/app/data/TrainingSession";
+import { TrainingSession } from "@/data/TrainingSession";
 import ContentElement from "./ContentElement";
 import SessionPopup from "./SessionPopup";
 

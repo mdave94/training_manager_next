@@ -1,6 +1,6 @@
 import React from "react";
 import ContentList from "./components/ContentList";
-import { TrainingSession } from "../data/TrainingSession";
+import { TrainingSession } from "../../data/TrainingSession";
 
 const mockedDataForCalendarView: TrainingSession[] = [
   {

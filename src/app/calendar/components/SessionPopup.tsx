@@ -1,5 +1,5 @@
 import React from "react";
-import { TrainingSession } from "@/app/data/TrainingSession";
+import { TrainingSession } from "@/data/TrainingSession";
 
 type SessionPopupProps = {
   session: TrainingSession;

@@ -1,5 +1,4 @@
 "use client"; // Client-side component for interactivity
-
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // For active link styling
